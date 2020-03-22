@@ -4,6 +4,8 @@ import (
 		"fmt"
 )
 
+// el loop fores el unico permitido por Go
+// en Go no contamos con foreach ni do for ni while
 func main(){
 	
 		arr := [...]int{1,2,3,4,5,6,7,8,9,10}	
