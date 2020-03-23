@@ -8,4 +8,5 @@
 ### Aviso:
 	Por algun motivo Github agrega un tabulado de 4 espacios mas de lo que tiene
 	 el archivo original. Estos ejemplos fueron echos siguiendo la guia de estilos
-	 oficial de Go que marca tabulados de 8 espacios, pero Github por algun motivo que no puedo explicar aún los esta llevando a 12 espacios. 
+	 oficial de Go que marca tabulados de 8 espacios, pero Github por algun motivo
+	 que no puedo explicar aún los esta llevando a 12 espacios. 

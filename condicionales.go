@@ -38,7 +38,6 @@ func main(){
 		}else{
 			fmt.Println(j, "es  50")
 		}
-
 		
 	 
 }
