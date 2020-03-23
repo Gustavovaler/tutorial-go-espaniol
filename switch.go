@@ -14,9 +14,9 @@ func main(){
 			case 1:
 				fmt.Println("uno")
 			case 2:
-				fmt.Println("uno")
+				fmt.Println("dos")
 			case 3:
-				fmt.Println("uno")
+				fmt.Println("tres")
 	}
 	 
 	 // casos con multiples posibilidades
@@ -34,7 +34,7 @@ func main(){
 				fmt.Println("eno es ni 1 ni 2 ni 3 ni 4")
 	} 
 
-	// evaluando sobre la variable
+	// evaluando sobre la variable con condicional
 
 	switch {
 
