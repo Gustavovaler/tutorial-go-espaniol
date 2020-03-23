@@ -18,7 +18,7 @@
 ### Para pobar los scripts y los ejercicios
 
 	Debes tener instalado Go
-	Puedes obtenerlo [https://golang.org/dl/]
+	Puedes obtenerlo https://golang.org/dl/
 	
 
 
