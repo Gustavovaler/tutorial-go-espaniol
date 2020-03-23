@@ -21,7 +21,7 @@ func main(){
 
 		fmt.Println(m)
 
-		// Imprimir un valer segun su clave
+		// Imprimir un valor segun su clave
 
 		fmt.Println(m["a"])
 
@@ -34,13 +34,13 @@ func main(){
 		delete(m, "a")
 		fmt.Println(m)
 
-		// Otra forma de inicializarel mapa en su declaracion
+		// Otra forma de inicializar el mapa en su declaracion
 
 		m2 := map[string]int{"key1": 1 , "key2":2}
 
 		fmt.Println(m2["key1"])
 
-		// Chequear si el valer d ela clave existe y manejar el error
+		// Chequear si el valer de la clave existe y manejar el error
 
 		val, is_val_present := m["b"]
 
@@ -52,6 +52,12 @@ func main(){
 		_, is_val_present2 := m["a"]
 
 		fmt.Println(is_val_present2)
+
+		// agregar un nuevo registro
+
+		m["c"] = 3
+
+		fmt.Println(m)
 
 		
 
