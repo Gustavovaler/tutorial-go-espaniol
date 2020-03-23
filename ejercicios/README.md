@@ -1,9 +1,9 @@
-##Ejercicos sencillos para ir practicando
+## Ejercicos sencillos para ir practicando
 
 La idea es ir viendo de forma progresiva el comportamiento y la forma de realizar ciertas tares.
 
 
-####Para poder ejecutar estos ejercicios:
+#### Para poder ejecutar estos ejercicios:
 
 	Desde el mismo directorio donde esta el ejercicio
 
