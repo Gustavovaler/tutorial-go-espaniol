@@ -8,17 +8,17 @@
 
 	Minimos de programación como ser
 
-	`Variables
-	 Arrays
-	 Tipos
-	 Lista 
-	 Instancia u Objeto
-	 Clases`
+	- Variables
+	- Arrays
+	- Tipos
+	- Lista 
+	- Instancia u Objeto
+	- Clases
 
 ### Para pobar los scripts y los ejercicios
 	Debes tener instalado Go
-	Puedes obtenerlo en 
-	`https://golang.org/dl/`
+	Puedes obtenerlo [descargalo aqui](https://golang.org/dl/)
+	
 
 
 
