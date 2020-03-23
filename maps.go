@@ -29,7 +29,7 @@ func main(){
 
 		fmt.Println(len(m))
 
-		// Borrar un registro segn su completo
+		// Borrar un registro según su clave
 
 		delete(m, "a")
 		fmt.Println(m)
