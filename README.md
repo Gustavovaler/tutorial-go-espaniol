@@ -29,7 +29,9 @@ so at a glance, you can find what you are looking for.
 
 	Desde el mismo directorio donde esta el ejercicio
 
-	` go run ejercicio-x.go`
+	```bash
+	 go run ejercicio-x.go
+	 ```
 
 	Para hacer un ejecutable
 
