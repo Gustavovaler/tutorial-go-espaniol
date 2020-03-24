@@ -1,6 +1,11 @@
+# Spanish Go tutorial
+
+In this repository you will find basic sample Go files for various Go language components,
+so at a glance, you can find what you are looking for.
+
 # Tutorial de Go ( golang) en español
 
-	En este repo encontraras un archivo con ejemplos basicos de los 
+	En este repo encontraras archivos con ejemplos basicos de los 
 	distintos componentes del lenguaje Go para que de una vista rápida 
 	encuentres lo que estas necesitando.
 
