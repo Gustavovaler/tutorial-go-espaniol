@@ -1,0 +1,9 @@
+ Este archivo de texto
+ lo estaremos utilizando
+ como ejemplo para poder
+ practicar la lectura y
+ escritura de archivos mediante
+ Go utilizando los paquetes necesarios
+
+ No inporta elcontenido ya que se 
+ trata de un texto plano.
