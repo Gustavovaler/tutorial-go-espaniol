@@ -27,4 +27,4 @@ func main(){
 	
 	}
 	 
-}
+} arhivo.Close()
