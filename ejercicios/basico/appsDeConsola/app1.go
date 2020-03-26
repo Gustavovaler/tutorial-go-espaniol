@@ -1,21 +1,21 @@
 package main
 
 import (
-		"fmt"
+	"fmt"
 )
 
-	// En este sencillo ejercicio debemos ingresar el nombre, mail y telefono de  
-	// una cantidad especificada por nosotros de empleados y luego imprimirlos
+// En este sencillo ejercicio debemos ingresar el nombre, mail y telefono de
+// una cantidad especificada por nosotros de empleados y luego imprimirlos
 
-	// Primero creamos un typo estructura de empleado
+// Primero creamos un typo estructura de empleado
 
-type Empleado struct{
-	nombre string
-	email string
+type Empleado struct {
+	nombre   string
+	email    string
 	telefono int
 }
 
-func main(){
+func main() {
 
 	// creamos una variable que almacene nuestra eleccion de cantidad de ingresos
 	var cantidadEmpleados int
@@ -33,8 +33,7 @@ func main(){
 
 	// Con el bucle for agregamos todos los datos al slice empleados
 
-	for i := 0; i < cantidadEmpleados ; i++ {
-		
+	for i := 0; i < cantidadEmpleados; i++ {
 
 		fmt.Println("Ingrese el nombre :")
 
@@ -49,15 +48,13 @@ func main(){
 		fmt.Scanln(&empleado.telefono) // asignamos la entrada del teclado a nuestro objeto empleado
 
 		fmt.Println("-----------------------------")
-	
 
 		empleados = append(empleados, empleado) // y agregamos el registro al slice empleados
 
 		// note qeu en el método append siempre el primer parámetro es el slice al cual se desea agregar
-	
-		
+
 	}
 	// Por ultimos imprimimos por consola la lista completa
 	fmt.Println(empleados)
-	 
+
 }
