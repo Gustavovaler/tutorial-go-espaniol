@@ -1,15 +1,15 @@
 package main
 
 import (
-		"fmt"
+	"fmt"
 )
 
-func main(){
+func main() {
 
 	channel := make(chan string)
 
-	go func(channel chan string){
-		for{
+	go func(channel chan string) {
+		for {
 			var name string
 			fmt.Scanln(&name)
 			channel <- name
@@ -18,13 +18,11 @@ func main(){
 	}(channel)
 
 	for {
-		
-		msg := <- channel
 
-		fmt.Println("Lo que recibi del canal",msg)
+		msg := <-channel
+
+		fmt.Println("Lo que recibi del canal", msg)
 
 	}
 
-	
-	 
 }

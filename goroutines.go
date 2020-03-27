@@ -1,12 +1,12 @@
 package main
 
 import (
-		"fmt"
-		"time"
-		"strings"
+	"fmt"
+	"strings"
+	"time"
 )
 
-func main(){
+func main() {
 
 	go mi_nombre_lento("Gusta")
 	fmt.Println("que lento este metodo")
@@ -14,15 +14,12 @@ func main(){
 	fmt.Scanln(&wait)
 }
 
-
-func mi_nombre_lento(nombre string){
+func mi_nombre_lento(nombre string) {
 	letras := strings.Split(nombre, "")
-	
 
-
-for _,letra := range(letras){
+	for _, letra := range letras {
 		time.Sleep(1000 * time.Millisecond)
 		fmt.Println(letra)
-}
-	 
+	}
+
 }
