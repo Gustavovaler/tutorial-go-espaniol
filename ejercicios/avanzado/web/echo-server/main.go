@@ -7,6 +7,7 @@ import (
 	"strconv"
 )
 
+// Creamos un type del tipo estructura que será nuetro objeto de tipo Usuario
 type (
 	user struct {
 		ID   int    `json:"id"`
@@ -14,6 +15,7 @@ type (
 	}
 )
 
+// creamos un map para guardar nuestros usuarios
 var (
 	users = map[int]*user{}
 	seq   = 1
@@ -22,7 +24,7 @@ var (
 //----------
 // Handlers
 //----------
-
+// aqui definimos los "controladores" de cada ruta
 func createUser(c echo.Context) error {
 	u := &user{
 		ID: seq,
@@ -65,10 +67,13 @@ func main() {
 	e := echo.New()
 
 	// Middleware
+	// con este middleware recibimos por io todas las peticiones
 	//e.Use(middleware.Logger())
+	// con este recuperamos las rutas en caso de error para que no caiga el server
 	e.Use(middleware.Recover())
 
-	// Routes
+	// Rutas
+
 	e.GET("/", index)
 	e.POST("/users", createUser)
 	e.GET("/users/:id", getUser)
