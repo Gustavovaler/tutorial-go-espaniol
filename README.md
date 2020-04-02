@@ -42,7 +42,12 @@ so at a glance, you can find what you are looking for.
 	` go version`
 
 
+## Referencias:
 
+	Principalmente este material ha sido escrito siguiendo el curso en Youtube de 
+	 G coding academy  de Alejandro Arnaud y su curso " Go de 0 a 100"
+	 Este canal es altamente recomendado de ver ya que explica muy bien como usar Go
+	 Si puedes suscribete ya que necesitamos apoyar a gente como esa. Gracias
 
 ### Aviso:
 	Por algun motivo Github agrega un tabulado de 4 espacios mas de lo que tiene
